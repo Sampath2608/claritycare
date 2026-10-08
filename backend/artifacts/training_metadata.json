@@ -1,0 +1,19 @@
+{
+  "dataset": "Synthetic demonstration data, not patient records",
+  "model": "logistic_regression",
+  "selection_metrics_not_clinically_validated": {
+    "logistic_regression": {
+      "synthetic_accuracy": 0.9844,
+      "synthetic_macro_f1": 0.9844
+    },
+    "random_forest": {
+      "synthetic_accuracy": 0.9822,
+      "synthetic_macro_f1": 0.9822
+    },
+    "decision_tree": {
+      "synthetic_accuracy": 0.9111,
+      "synthetic_macro_f1": 0.9109
+    }
+  },
+  "trained_at": "2026-10-08T04:40:39.846146+00:00"
+}
